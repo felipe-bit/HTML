@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    body{
+        background-color: pink;
+        color: white;
+        font-family: poppinsregular;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h1{
+        font-weight: 200;
+    
+    }
+    h2{
+        font-size: 56px;
+        line-height: 10px;
+        font-family: poppinsmedium;
+    }
+    p{
+        line-height: 20px;
+        max-width: 500px;
+        font-family: poppinslight;
+    }
+    img{
+        width: 600px;
+    }
+    input{
+        margin-top: 20px;
+        height: 20px;
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+        font-size: 15px;
+    }
+    form [type="submit"]{
+        height: 50px;
+        width: 50px;
+        background-color: rgb(255, 0, 234);
+        color: white;
+        font-weight: bold;
+    }
+    li{
+        display: inline-block;
+        margin: 20px;
+    }
+    span{
+        color: rgb(255, 0, 0);
+    }
+    
+</style>
+<body>
+    <header>
+        <div id="titulo">
+            <h1>FaceLove</h1>
+        </div>
+        <ul>
+            <a href="inicio.html"><li>Inicio</li></a>
+            <a href="sobre.html"><li>Sobre Nós</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+            <a href="videos.html"><li>Videos</li></a>
+            <a href="cadastro.html"><li>Ja tem uma conta?</li></a>
+        </ul>
+    </header>
+
+    <div>
+        <h2>Ja tem uma conta </h2>
+        <h2>Na FaceLove</h2>
+        <p>Coloque suas informações de login, para encotrar seu amor</p>
+        <form>
+            <input type="text" placeholder="Usuario">
+            <input type="email" placeholder="Email">
+            <input type="submit" value="Enviar ">
+        </form>
+    </div>
+
+    <img src="amor.png" alt="mulher">
+</body>
+</html>
